@@ -5,8 +5,8 @@ const randomButton = document.querySelector(".random");
 const plusButton = document.querySelector(".plus");
 
 function updateNumber() {
-  const NumberElement = document.getElementById("numberJS");
-  NumberElement.textContent = number;
+  const numberElement = document.getElementById("numberJS"); // change to kebab-case ("number-js")
+  numberElement.textContent = number;
 }
 
 function minus() {
